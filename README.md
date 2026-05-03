@@ -4,14 +4,11 @@ Power BI DAX Data Analytics Status
 An interactive Power BI dashboard analysing 17 seasons of IPL data (2008–2025) — covering match outcomes, player performances, team standings, and scoring milestones. A single season slicer dynamically updates every visual on the page.
 
 📸 Dashboard Preview
-Screen Recording 2026-04-28 105557
-*Video Preview for season slicer working dynamically for images, points table, players, and Champion stats
+
+<img width="1280" height="696" alt="image" src="https://github.com/user-attachments/assets/93f07150-c5e2-4b6f-9f5d-c930e99dd96f" />
 
 image
-2025 Season shown — RCB Champions, Punjab Kings Runner-Up
-
-image
-2023 Season shown — CSK Champions, Gujarat Titans Runner-Up
+2011 Season shown — CSK Champions, Royal Challenger Bangalore Runner-Up
 
 🎯 Project Objective
 Cricket generates enormous amounts of structured data every season. The goal of this project was to transform raw IPL match and player data into a clean, executive-ready dashboard that any cricket fan, analyst, or team management stakeholder could use to instantly understand a season's story — without writing a single SQL query or scrolling through spreadsheets.
@@ -557,7 +554,6 @@ All measures are season-context aware — they filter automatically based on the
 Player and team images are loaded via URL-based image columns in the data model
 Conditional rendering ensures the correct player image appears per season without manual filtering
 📦 Data Source
-Dataset files (Excel) and images sourced from a shared Drive folder — Click here to access.
 Player images sourced from publicly available IPL/ESPN Cricinfo URLs
 💡 Key Learnings
 Designing a single-slicer driven dashboard that controls 15+ visuals simultaneously
